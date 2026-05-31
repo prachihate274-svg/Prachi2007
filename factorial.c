@@ -1,0 +1,13 @@
+//Name:prachi pramod hate
+//PRN:2503033111372011
+#include<stdio.h>
+int main (){
+ int i=1,n,fact=1;
+ printf("Enter number: ");
+ scanf("%d",&n);
+ for ( i = 1; i<=n ; i++){
+    fact=fact*i;
+ }
+ printf("Factorial: %d",fact);
+return 0;
+}
